@@ -1,0 +1,54 @@
+{
+  "selectors": {
+    "login": {
+      "usernameField": "[data-test-id='txt-username']",
+      "passwordField": "[data-test-id='txt-password']",
+      "submitButton": "[data-test-id='btn-signin']",
+      "errorMessage": "[data-test-id='login-error']"
+    },
+    "navigation": {
+      "mainMenu": "[data-test-id='main-menu']",
+      "workbasketLink": "[data-test-id='nav-workbasket']",
+      "caseTypeLink": "[data-test-id='nav-case-types']",
+      "dashboardLink": "[data-test-id='nav-dashboard']",
+      "searchField": "[data-test-id='global-search']",
+      "userMenu": "[data-test-id='user-menu']",
+      "logoutButton": "[data-test-id='btn-logout']"
+    },
+    "caseOperations": {
+      "newCaseButton": "[data-test-id='btn-new-case']",
+      "caseTypeSelector": "[data-test-id='case-type-selector']",
+      "caseSubmitButton": "[data-test-id='btn-submit']",
+      "caseCancelButton": "[data-test-id='btn-cancel']",
+      "caseSaveButton": "[data-test-id='btn-save']",
+      "caseNextButton": "[data-test-id='btn-next']",
+      "casePrevButton": "[data-test-id='btn-prev']",
+      "caseSummary": "[data-test-id='case-summary']",
+      "caseStatus": "[data-test-id='case-status']"
+    },
+    "workbasket": {
+      "workbasketList": "[data-test-id='workbasket-list']",
+      "workbasketSearch": "[data-test-id='workbasket-search']",
+      "assignmentRow": "[data-test-id='assignment-item']",
+      "takeAssignmentBtn": "[data-test-id='btn-take']",
+      "dropAssignmentBtn": "[data-test-id='btn-drop']",
+      "clearAssignmentBtn": "[data-test-id='btn-clear']"
+    },
+    "common": {
+      "loadingSpinner": ".pi-icon-loading",
+      "toast": "[data-test-id='toast']",
+      "modalDialog": "[data-test-id='modal-dialog']",
+      "okButton": "[data-test-id='btn-ok']",
+      "closeButton": "[data-test-id='btn-close']",
+      "confirmButton": "[data-test-id='btn-confirm']",
+      "tab": "[data-test-id='tab-']",
+      "section": "[data-test-id='section-']",
+      "field": "[data-test-id='field-']",
+      "dropdown": "[data-test-id='dropdown-']",
+      "actionButton": "[data-test-id='btn-']",
+      "actionMenu": "[data-test-id='action-menu']",
+      "contextMenu": "[data-test-id='context-menu']",
+      "notification": "[data-test-id='notification']"
+    }
+  }
+}

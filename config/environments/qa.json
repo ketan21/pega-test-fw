@@ -1,0 +1,32 @@
+{
+  "baseUrl": "https://pega-qa.example.com",
+  "appName": "MyPegaApp",
+  "defaultTimeout": 30000,
+  "retries": 2,
+  "testUsers": [
+    {
+      "username": "PEGA-User1",
+      "password": "${PEGA_QA_PASSWORD}",
+      "role": "User",
+      "accessRole": "UserAccess",
+      "operatorID": "User1"
+    },
+    {
+      "username": "PEGA-Admin",
+      "password": "${PEGA_QA_ADMIN_PASSWORD}",
+      "role": "Admin",
+      "accessRole": "AdminAccess",
+      "operatorID": "Admin"
+    }
+  ],
+  "browser": {
+    "headless": true,
+    "viewport": { "width": 1920, "height": 1080 },
+    "locales": "en-US",
+    "timezone": "America/New_York"
+  },
+  "api": {
+    "timeout": 30000,
+    "retryCount": 3
+  }
+}

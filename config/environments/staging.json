@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://pega-staging.example.com",
+  "appName": "MyPegaApp",
+  "defaultTimeout": 30000,
+  "retries": 1,
+  "testUsers": [
+    {
+      "username": "PEGA-User1",
+      "password": "${PEGA_STAGING_PASSWORD}",
+      "role": "User",
+      "accessRole": "UserAccess",
+      "operatorID": "User1"
+    }
+  ],
+  "browser": {
+    "headless": true,
+    "viewport": { "width": 1920, "height": 1080 },
+    "locales": "en-US",
+    "timezone": "America/New_York"
+  },
+  "api": {
+    "timeout": 30000,
+    "retryCount": 3
+  }
+}

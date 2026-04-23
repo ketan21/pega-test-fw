@@ -1,0 +1,28 @@
+{
+  "users": {
+    "standardUser": {
+      "username": "PEGA-User1",
+      "password": "${PEGA_TEST_PASSWORD}",
+      "role": "User",
+      "accessRole": "UserAccess",
+      "operatorID": "User1",
+      "description": "Standard user with basic case access"
+    },
+    "adminUser": {
+      "username": "PEGA-Admin",
+      "password": "${PEGA_TEST_ADMIN_PASSWORD}",
+      "role": "Admin",
+      "accessRole": "AdminAccess",
+      "operatorID": "Admin",
+      "description": "Admin user with full access"
+    },
+    "managerUser": {
+      "username": "PEGA-Manager1",
+      "password": "${PEGA_TEST_PASSWORD}",
+      "role": "Manager",
+      "accessRole": "ManagerAccess",
+      "operatorID": "Manager1",
+      "description": "Manager user with team oversight"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "appName": "MyPegaApp",
+  "defaultTimeout": 30000,
+  "retries": 0,
+  "testUsers": [
+    {
+      "username": "PEGA-User1",
+      "password": "${PEGA_DEV_PASSWORD}",
+      "role": "User",
+      "accessRole": "UserAccess",
+      "operatorID": "User1"
+    },
+    {
+      "username": "PEGA-Admin",
+      "password": "${PEGA_DEV_ADMIN_PASSWORD}",
+      "role": "Admin",
+      "accessRole": "AdminAccess",
+      "operatorID": "Admin"
+    }
+  ],
+  "browser": {
+    "headless": false,
+    "viewport": { "width": 1920, "height": 1080 },
+    "locales": "en-US",
+    "timezone": "America/New_York"
+  },
+  "api": {
+    "timeout": 30000,
+    "retryCount": 3
+  }
+}
